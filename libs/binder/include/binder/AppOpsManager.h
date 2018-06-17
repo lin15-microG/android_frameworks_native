@@ -110,7 +110,9 @@ public:
         OP_BOOT_COMPLETED = 72,
         OP_NFC_CHANGE = 73,
         OP_DATA_CONNECT_CHANGE = 74,
-        OP_SU = 75
+        OP_SU = 75,
+        OP_MOTION_SENSORS = 76,
+        OP_OTHER_SENSORS = 77
     };
 
     AppOpsManager();
